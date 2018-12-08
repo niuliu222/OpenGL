@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLAD", "ThirdParty\GLAD\GLAD.vcxproj", "{4B7EE29E-ACB9-4CFB-B6E5-E9EF41D12696}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{033C1F77-62A5-4430-8F33-022B19703F3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shader", "Core\Shader\Shader.vcxproj", "{432B9953-8826-4A7B-8248-0BE12296296F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +49,14 @@ Global
 		{4B7EE29E-ACB9-4CFB-B6E5-E9EF41D12696}.Release|x64.Build.0 = Release|x64
 		{4B7EE29E-ACB9-4CFB-B6E5-E9EF41D12696}.Release|x86.ActiveCfg = Release|Win32
 		{4B7EE29E-ACB9-4CFB-B6E5-E9EF41D12696}.Release|x86.Build.0 = Release|Win32
+		{432B9953-8826-4A7B-8248-0BE12296296F}.Debug|x64.ActiveCfg = Debug|x64
+		{432B9953-8826-4A7B-8248-0BE12296296F}.Debug|x64.Build.0 = Debug|x64
+		{432B9953-8826-4A7B-8248-0BE12296296F}.Debug|x86.ActiveCfg = Debug|Win32
+		{432B9953-8826-4A7B-8248-0BE12296296F}.Debug|x86.Build.0 = Debug|Win32
+		{432B9953-8826-4A7B-8248-0BE12296296F}.Release|x64.ActiveCfg = Release|x64
+		{432B9953-8826-4A7B-8248-0BE12296296F}.Release|x64.Build.0 = Release|x64
+		{432B9953-8826-4A7B-8248-0BE12296296F}.Release|x86.ActiveCfg = Release|Win32
+		{432B9953-8826-4A7B-8248-0BE12296296F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +64,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{579DFB0D-09BD-48A2-A83F-6B803142A3AF} = {1642735B-43DB-473F-8E75-2DC6233D8FB5}
 		{4B7EE29E-ACB9-4CFB-B6E5-E9EF41D12696} = {8D797729-ECD4-47DB-90C4-AE0573F5A8F6}
+		{432B9953-8826-4A7B-8248-0BE12296296F} = {033C1F77-62A5-4430-8F33-022B19703F3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C0F3250-980B-4709-A552-7FC6961EE781}
